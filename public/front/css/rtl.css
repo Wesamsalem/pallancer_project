@@ -1,0 +1,110 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+header nav {
+    padding: 0 32px 0 15px;
+}
+header nav .links-list ul .list-item {
+    margin-right: 0;
+    margin-left: 14px;
+}
+header nav .links-list ul .list-item:last-child {
+    margin-left: 0;
+}
+
+.schedule-section .sc-right .sc-input .input-field {
+    padding-left: 0;
+    padding-right: 7px;
+}
+.testimonial-section .testimonial-content .testimonial-card .card-content {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.testimonial-section .testimonial-content .testimonial-card .card-img {
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+.branches-section .branch-icon a {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.branches-section .branch-icon a:first-child {
+    margin-right: 0;
+}
+footer .footer-contact .footer-links:after, footer .footer-contact .work-time:after {
+    right: auto;
+    left: 11px;
+}
+footer .footer-contact .social li a span {
+    margin-left: 0;
+    margin-right: 15px;
+}
+footer .rights {
+    float: left;
+}
+.about-section .about-right .about-img .about-box {
+    right: -100px;
+    left: auto;
+}
+.news-details .details-content .news-text {
+    text-align: right;
+    padding-right: 100px;
+}
+.contact-us .input-field label {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+.news-details .details-content .news-text .share .share-link a {
+    margin-left: 0;
+    margin-right: 25px;
+}
+.news-details .details-content .news-text .share .share-link a.facebook {
+    margin-right: 0;
+}
+
+
+
+
+@media(max-width: 1200px) {
+    /* footer */
+    footer .rights {
+        float: none;
+    }
+}
+@media(max-width: 991px) {
+    .about-section .about-right .about-img .about-box {
+        left: 50%;
+        right: auto;
+    }
+}
+@media(max-width: 767px) {
+    .news-details .details-content .news-text {
+        padding-right: 0;
+    }
+    .news-details .details-content .news-text .share .share-link a {
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
